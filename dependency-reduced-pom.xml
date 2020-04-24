@@ -157,7 +157,7 @@
     <dependency>
       <groupId>io.rest-assured</groupId>
       <artifactId>rest-assured</artifactId>
-      <version>4.2.0</version>
+      <version>3.3.0</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
@@ -177,7 +177,11 @@
           <groupId>org.apache.httpcomponents</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>hamcrest</artifactId>
+          <artifactId>hamcrest-core</artifactId>
+          <groupId>org.hamcrest</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>hamcrest-library</artifactId>
           <groupId>org.hamcrest</groupId>
         </exclusion>
         <exclusion>

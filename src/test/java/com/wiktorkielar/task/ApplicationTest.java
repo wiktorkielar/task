@@ -28,7 +28,7 @@ class ApplicationTest {
     private static void configurePort() {
         String port = System.getProperty("server.port");
         if (port == null) {
-            RestAssured.port = Integer.parseInt("8080");
+            RestAssured.port = Integer.parseInt("8000");
         } else {
             RestAssured.port = Integer.parseInt(port);
         }
