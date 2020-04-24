@@ -1,0 +1,26 @@
+[
+  {
+    "publish": true,
+    "color": "255,0,0"
+  },
+  {
+    "publish": true,
+    "color": "0,255,0"
+  },
+  {
+    "publish": true,
+    "color": "0,0,255"
+  },
+  {
+    "publish": false,
+    "color": ""
+  },
+  {
+    "publish": true,
+    "color": ""
+  },
+  {
+    "publish": true,
+    "color": null
+  }
+]

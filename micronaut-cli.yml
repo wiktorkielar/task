@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.wiktorkielar
+---
+testFramework: junit
+sourceLanguage: java
