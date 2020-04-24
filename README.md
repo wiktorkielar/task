@@ -1,3 +1,8 @@
+# Task
+
+## Description
+Simple web application integrating REST service with external message broker system.
+
 ## Requirements
 1. Install latest JDK
 2. Install Docker
@@ -12,13 +17,13 @@
 4. `java -jar target/task.jar` 
 
 
-##Running Unit Tests
+## Running Unit Tests
 1. `./mvnw test`
 
-##Running Integration Test
+## Running Integration Test
 1. `docker run -d --name rabbitmq-container -p 4369:4369 -p 5671:5671 -p 5672:5672 rabbitmq:3`
 2. `java -jar target/task.jar`
 3. `./mvnw test -Dtest=ApplicationTest`
 
-##Running Performance Test
+## Running Performance Test
 1. `./mvnw gatling:test`
